@@ -1,0 +1,118 @@
+.container-start {
+    background-color: #7E4280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pause {
+    background-color:#98D2A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-start {
+    text-align: center;
+    background-color: #915193;
+    width: 404px;
+    height: 394px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.timer-pause {
+    text-align: center;
+    background-color: #b3d6b9;
+    width: 404px;
+    height: 394px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.timer__display {
+    color: #fff;
+    font-size: 110px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.timer__button-start {
+    border-radius: 25px;
+    background-color: #915193;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.timer__button-pause {
+    border-radius: 25px;
+    background-color: #b3d6b9;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.timer__button-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    height: 29px;
+    padding: 5px;
+    width: 146px;
+}
+
+.timer__button-start:hover {
+    background: #5A245B;
+}
+
+.timer__button-pause:hover {
+    background: #79ad82;
+}
+
+.timer__start-btn {
+    width: 201px;
+    height: 95px;
+    background: #FFFFFF;
+    border-radius: 17px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.timer__start-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #5A245B;
+}
+
+.timer__pause-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #98D2A2;
+}
